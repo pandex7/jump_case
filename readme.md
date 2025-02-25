@@ -6,11 +6,11 @@ Esse desafio reflete um problema real e recorrente em muitas empresas: dados dis
 
 Este projeto tem como objetivo estruturar um pipeline de dados eficiente e escalável para permitir a análise avançada. A solução proposta utiliza tecnologias modernas, como Databricks, dbt, Apache Airflow e Power BI, garantindo uma pipeline confiável, flexível e automatizada
 
-Ingestão, pipeline ELT e ferramentas
-Ferramentas de Data Plataform
-Ferramentas de tratamento dos dados
-Ferramentas de CI/CD e controle de versão como Github
-Ferramentas de visualização analítica
+- Ingestão, pipeline ELT e ferramentas
+- Ferramentas de Data Plataform
+- Ferramentas de tratamento dos dados
+- Ferramentas de CI/CD e controle de versão como Github
+- Ferramentas de visualização analítica
 
 ## conteúdo de auxílio
 
