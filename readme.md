@@ -1,46 +1,19 @@
-# astro-dbt-airflow-dbsql
+# Projeto Jump 
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [Astro CLI](https://docs.astronomer.io/astro/cli/install-cli)
-- [Astro Python SDK](https://github.com/astronomer/astro-sdk)
+Imagine um executivo da área de Atendimento ao Cliente tentando entender por que os clientes de cartões estão insatisfeitos. Ele sabe que existem dados disponíveis, mas não tem clareza sobre onde encontrá-los, como organizá-los e como transformá-los em algo útil.
 
-### 1) Install Docker Desktop
-Install docker desktop to run airflow locally
-```shell
-https://www.docker.com/products/docker-desktop/
-```
+Esse desafio reflete um problema real e recorrente em muitas empresas: dados dispersos, falta de estrutura e dificuldade em gerar valor de forma ágil.
 
-### 2) Install Astro-CLI
-Install astro-cli to develop DAGs
-```shell
-https://github.com/astronomer/astro-cli
+Este projeto tem como objetivo estruturar um pipeline de dados eficiente e escalável para permitir a análise avançada. A solução proposta utiliza tecnologias modernas, como Databricks, dbt, Apache Airflow e Power BI, garantindo uma pipeline confiável, flexível e automatizada
 
-curl -sSL install.astronomer.io | sudo bash -s
-brew install astro
+Ingestão, pipeline ELT e ferramentas
+Ferramentas de Data Plataform
+Ferramentas de tratamento dos dados
+Ferramentas de CI/CD e controle de versão como Github
+Ferramentas de visualização analítica
 
-astro dev init
-```
+## conteúdo de auxílio
 
-### 3) Add Airflow Connections
-Add these configurations into the airflow_settings.yaml file
-```yaml
-airflow:
-  connections: databricks_conn
-```
+Toda o Material de auxílio para a execução desse projeto encontra-se no Wiki desse repositório, vai desde visão geral sobre o intuito e o que vamos fazer até a instalação dos pré requisitos pra cada etapa do processo.
 
-### 4) Init Airflow Project
-Initialize project using the astro-cli
-```shell
-astro dev start
-http://localhost:8080
-astro dev restart
-```
-
-### 5) Install Libraries for Development
-Install the required libraries for the project to develop the DAGs locally
-```shell
-pip install apache-airflow
-pip install astro-sdk-python
-pip install bt-databricks
-pip install astronomer-cosmos
-```
+Segue o Link do Wiki: https://github.com/pandex7/jump_case/wiki
