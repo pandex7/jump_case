@@ -12,7 +12,7 @@ Este projeto tem como objetivo estruturar um pipeline de dados eficiente e escal
 - Ferramentas de CI/CD e controle de versão como Github
 - Ferramentas de visualização analítica
 
-## conteúdo de auxílio
+## Conteúdo de Auxílio
 
 Toda o Material de auxílio para a execução desse projeto encontra-se no Wiki desse repositório, vai desde visão geral sobre o intuito e o que vamos fazer até a instalação dos pré requisitos pra cada etapa do processo.
 
